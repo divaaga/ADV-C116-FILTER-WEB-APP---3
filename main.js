@@ -7,7 +7,7 @@ function preload(){
 }
 
 function setup() {
-    canvas = createCanvas(400, 400);
+    canvas = createCanvas(300, 300);
     canvas.center();
     video = createCapture(VIDEO);
     video.size(300,300);
@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, 300, 300);
-    image(img, noseX, noseY, 50, 50);
+    image(img, noseX, noseY,300, 300);
 }
 
 function take_snapshot() {
